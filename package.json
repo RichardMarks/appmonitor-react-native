@@ -1,0 +1,22 @@
+{
+  "name": "appmonitor-react-native",
+  "version": "1.0.0",
+  "description": "React Native Companion for AppMonitor",
+  "author": "Richard Marks <ccpsceo@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "4.6.3"
+  },
+  "peerDependencies": {
+    "react-native": "^0.66.0"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  }
+}
